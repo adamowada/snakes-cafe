@@ -1,6 +1,8 @@
 # 401 Lab 01: Snakes Cafe
 ### Adam Owada
 
+https://github.com/adamowada/snakes-cafe/pull/2
+
 ### Use:
 
 User enters in order selection, which updates their meal. If the user has selected the order already, their meal increments. 
@@ -10,8 +12,6 @@ After order input, app prints how many of that order is in their meal.
 Entering "quit" exits the app.
 
 ### Attributions:
-
-https://github.com/adamowada/snakes-cafe/pull/1
 
 https://www.techbeamers.com/python-multiline-string/ helped me with multiline strings
 
