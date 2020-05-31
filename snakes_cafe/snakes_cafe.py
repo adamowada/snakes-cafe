@@ -43,9 +43,10 @@ order = input()
 while order != "quit":
   if order in meal:
     meal.update({order: meal[order] + 1})
+    print("\n**" + str(meal[order]) + " orders of " + order + " have been added to your meal**\n")
   else:
     meal.update({order: 1})
-  print("\n**" + str(meal[order]) + " order of " + order + " have been added to your meal**\n")
+    print("\n**" + str(meal[order]) + " order of " + order + " have been added to your meal**\n")
   order = input()
 
 quit()
